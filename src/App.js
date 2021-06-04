@@ -4,6 +4,9 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 function App() {
+
+  document.title = "Weather API React App";
+
   return (
     <Switch>
       <Route exact path="/" component={ Home }/>
